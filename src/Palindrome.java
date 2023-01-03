@@ -9,7 +9,6 @@ public class Palindrome {
         for (int i = 0; i < input.length(); i++) {
             sum1 += spilit[i];
 
-
         }
         for (int i = input.length() - 1; i > -1; i--) {
             sum2 += spilit[i];
@@ -22,7 +21,6 @@ public class Palindrome {
         }
 
         return palindrome;
-
 
     }
 

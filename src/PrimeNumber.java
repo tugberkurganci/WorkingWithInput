@@ -10,13 +10,11 @@ public class PrimeNumber {
                 if (!(i % j == 0)) {
                     prime = true;
 
-
                 } else {
                     prime = false;
 
                     if (prime == false) break;
                 }
-
 
             }
             if (prime) numbers.add(i);
