@@ -19,7 +19,6 @@ public class Palindrome {
         } else {
             palindrome = false;
         }
-
         return palindrome;
 
     }
