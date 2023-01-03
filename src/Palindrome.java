@@ -1,13 +1,11 @@
-import java.util.ArrayList;
+public class Palindrome {
 
-public class Polidrom {
-
-    public boolean isPolidrom(String input) {
+    public boolean isPalindrome(String input) {
 
         String[] spilit = input.split("");
         String sum1 = "";
         String sum2 = "";
-        boolean polidrom = true;
+        boolean palindrome = true;
         for (int i = 0; i < input.length(); i++) {
             sum1 += spilit[i];
 
@@ -18,12 +16,12 @@ public class Polidrom {
 
         }
         if (sum2.equals(sum1)) {
-            polidrom = true;
+            palindrome = true;
         } else {
-            polidrom = false;
+            palindrome = false;
         }
 
-        return polidrom;
+        return palindrome;
 
 
     }

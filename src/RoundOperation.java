@@ -1,4 +1,4 @@
-public class RoundImplementation {
+public class RoundOperation {
 
     public double aDoubleToRound(double input) {
 

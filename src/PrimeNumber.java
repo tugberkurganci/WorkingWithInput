@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Prime {
+public class PrimeNumber {
     public ArrayList<Integer> isPrime(int input) {
 
         ArrayList<Integer> numbers = new ArrayList<Integer>();
