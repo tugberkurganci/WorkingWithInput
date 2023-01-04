@@ -5,7 +5,7 @@ public class PrimeNumber {
 
         ArrayList<Integer> numbers = new ArrayList<Integer>();
         boolean prime = true;
-        for (int i = 2; i < input; i++) {
+        for (int i = 2; i < input+1; i++) {
             for (int j = 2; j < i; j++) {
                 if (!(i % j == 0)) {
                     prime = true;
