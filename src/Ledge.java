@@ -18,8 +18,11 @@ public class Ledge {
             System.out.println(differenceTime.calculateDifference(input));
         } else if (input.contains(".")) {
             System.out.println(roundOperation.aDoubleToRound(input));
-        } else if (input.contains("F")&&input.chars().anyMatch(Character::isDigit)) {
+        } else if (input.contains("F") && input.chars().anyMatch(Character::isDigit)) {
             System.out.println(roundOperation.aFloatToRound(input));
+        } else if (input.contains("f") && input.chars().anyMatch(Character::isDigit)) {
+            System.out.println(roundOperation.aFloatToRound(input));
+
         } else if (input.chars().allMatch(Character::isAlphabetic)) {
             System.out.println(palindrome.isPalindrome(input));
         } else {
