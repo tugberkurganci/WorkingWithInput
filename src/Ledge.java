@@ -10,9 +10,11 @@ public class Ledge {
 
     public void starter() {
 
+        System.out.println("if date data is to be entered format : day/month/year hour:minute:second");
         String input = scanner.nextLine();
 
         if (input.contains("/") && input.contains(":")) {
+
             System.out.println(differenceTime.calculateDifference(input));
         } else if (input.contains(".")) {
             System.out.println(roundOperation.aDoubleToRound(input));
